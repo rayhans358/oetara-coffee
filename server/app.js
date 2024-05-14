@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const cors = require('cors');
 const indexRouter = require('./app/router/index');
-const { decodeToken } = require('./app/middleware/passport-jwt-strategy');
+const { decodeToken } = require('./app/middleware/deocdeToken');
 
 var app = express();
 
